@@ -83,7 +83,7 @@ foreach ($pice in $ArrayVersionSO)
 ## ---- Determinar si el script es compatible con el Sistema Operativo.
 if($CompatibilityModeSO){
 
-    ## ---- Crear respaldo
+    ## ---- Crear respaldo antes de la actividad.
     snapshot_before $ID $CompatibilityModeSO
 
     do
@@ -105,7 +105,8 @@ if($CompatibilityModeSO){
                } '3' {
                     Write-Host "Opción 3"
                } 'q' {
-                    #Write-Host "Salir"
+                    ## ---- Crear respaldo después de la actividad.
+                    snapshot_after
                }
 
          }
