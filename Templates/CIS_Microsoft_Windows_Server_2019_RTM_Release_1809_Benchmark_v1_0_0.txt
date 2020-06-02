@@ -1,0 +1,3 @@
+2.3.1.4 (L1) Ensure 'Accounts: Limit local account use of blank passwords to console logon only' is set to 'Enabled' (Scored)
+2.3.1.4 (L1) Asegúrese de que 'Cuentas: limitar el uso de la cuenta local de contraseñas en blanco solo para iniciar sesión en la consola' esté configurado en 'Habilitado' (Puntuado)
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa:LimitBlankPasswordUse
