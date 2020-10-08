@@ -60,14 +60,14 @@ foreach ($pice in $ArrayVersionSO)
     $CompatibilityModeSO = '2016'
     }
 
-    if($pice -eq '2012'){
+    #if($pice -eq '2012'){
     
-        if($pice -eq 'R2'){
-            $CompatibilityModeSO = '2012 R2'
-        }else{
-            $CompatibilityModeSO = '2012'
-        }
-    }
+        #if($pice -eq 'R2'){
+            #$CompatibilityModeSO = '2012 R2'
+        #}else{
+            #$CompatibilityModeSO = '2012'
+        #}
+    #}
 
     # Desktop's
     if($pice -eq '10'){
