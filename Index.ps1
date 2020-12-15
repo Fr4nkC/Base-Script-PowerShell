@@ -1,27 +1,22 @@
 ﻿<#
+
 .SYNOPSIS
+ -
 
 .DESCRIPTION
+ -
 
-- Script principal
-    File: Index.ps1
-    
-- functions
-    - Directorio de funciones.
+.PARAMETER
+ -
 
-- menu
-    - Contienen la estructurara del Menú.
-    
- - snapshot_before
-    - Guardar una copia de los parámetros o archivos de configuración antes de realizar la actividad.
+.INPUTS
+ -
 
-- snapshot_after
-    - Guardar una copia de los parámetros o archivos de configuración después de realizar la actividad.
+.OUTPUTS
+ -
 
-- rollback
-    - Regresar los parámetros o archivos de configuración a su estado inicial.
-
-- templates
+.EXAMPLE
+ -
 
 .NOTES
     Author: Fr4nkC
